@@ -1,0 +1,22 @@
+.nav{
+  display: flex;
+  flex-direction: row;
+  background: purple;
+  font-family: cursive;
+  color: white;
+  padding: 10px;
+}
+.heading{
+  width: 90%;
+  font-size: 1.75em;
+  font-weight: bold;
+}
+.new-game{
+  width: 10%;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+nav div:hover{
+  opacity: 0.8;
+}
